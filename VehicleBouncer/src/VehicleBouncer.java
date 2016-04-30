@@ -32,7 +32,7 @@ public class VehicleBouncer{
       int inputNum;
       
       inputStr = JOptionPane.showInputDialog(null
-            , "How many behicles should be displayed?\n"
+            , "How many vehicles should be displayed?\n"
             + "(give an integer from 0 to 20)", "Input"
             , JOptionPane.QUESTION_MESSAGE);
       
@@ -49,7 +49,7 @@ public class VehicleBouncer{
             JOptionPane.showMessageDialog(null
                , "No value is typed.\n" + "Please type an integer.");
             inputStr = JOptionPane.showInputDialog(null
-            , "How many behicles should be displayed?\n"
+            , "How many vehicles should be displayed?\n"
             + "(give an integer from 0 to 20)", "Input"
             , JOptionPane.QUESTION_MESSAGE);
          }
